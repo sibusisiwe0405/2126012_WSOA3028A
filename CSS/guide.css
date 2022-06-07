@@ -30,3 +30,17 @@
   margin-left: 25%;
   padding: 20px;
 }
+
+.blogs {
+  background-color: #f1d0b6;
+  margin-left: 50px;
+  margin: 50px;
+  font-family: Fonts;
+  src: url(./Fonts/Satisfy/Satisfy-Regular.ttf);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-style: double;
+  border-width: 10px;
+}

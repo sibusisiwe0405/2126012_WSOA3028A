@@ -3,11 +3,11 @@
 
 
 const navItems = [
-    { href: 'trial.html', text: 'Home'},
-    { href: 'about.html', text: 'About'  },
-    { href: 'styleGuide.html', text: 'Style Guide' },
-    { href: 'portfolio.html', text: 'Portfolo'},
-    { href: './BlogPosts/Blogs.html', text: 'Blogs',  },
+    { href: '../trial.html', text: 'Home'},
+    { href: '../about.html', text: 'About'  },
+    { href: '../styleGuide.html', text: 'Style Guide' },
+    { href: '../portfolio.html', text: 'Portfolo'},
+    { href: 'Blogs.html', text: 'Blogs',  },
    
 
 ];
@@ -73,40 +73,41 @@ class myFooter extends HTMLElement {
         this.innerHTML = `
         <div class="containar">
         
-    <footer>
-   <div class="footer-content"> 
-    <h4>Company</h4>
-    <ul>
-        <li><a href="trial.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="./BlogPosts/Blogs.html">Blogs</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="styleGuide.html">Style Guide</a></li>
-    </ul>
-</div>
-<div class="footer-content">
-    <h4>Get help</h4>
-    <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</div>
-<div class="footer-content">
-    <h4>Contact us</h4>
-    <div class="social-links">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>   
+        <footer>
+       <div class="footer-content"> 
+        <h4>Company</h4>
+        <ul>
+            <li><a href="../trial.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="Blogs.html">Blogs</a></li>
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../styleGuide.html">Style Guide</a></li>
+        </ul>
+    </div>
+    <div class="footer-content">
+        <h4>Get help</h4>
+        <ul>
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="footer-content">
+        <h4>Contact us</h4>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>   
+        
+    </div>
+    </div>
     
-</div>
-</div>
-
-</div>
-
-</div>
-
-    </footer>
+    </div>
+    
+    </div>
+    
+        </footer>
+    
 
         `
     }
