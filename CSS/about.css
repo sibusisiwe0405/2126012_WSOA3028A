@@ -1,0 +1,76 @@
+.myimage {
+  display: block;
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+.text {
+  text-align: justify;
+  font-size: 20px;
+  background-color: beige;
+  padding: 10px 20px;
+  margin: 50px;
+  border-style: double;
+  border-width: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.who {
+  background-color: #f1d0b6;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  border-style: double;
+  border-width: 20px;
+  border-color: black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Fonts;
+  src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
+}
+.Hlink {
+  text-decoration: none;
+  color: black;
+}
+.Hlink:hover {
+  background-color: rgba(248, 248, 223, 0.055);
+  padding: 10px 10px;
+  border-radius: 20%;
+  color: black;
+}
+#check {
+  display: none;
+}
+#check:checked ~ ul {
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .burger-button {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(87, 85, 85, 0.541);
+    height: 100vh;
+    text-align: center;
+    top: 10vh;
+    left: -120%;
+  }
+  nav ul li {
+    display: block;
+    padding: 30px 0;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}

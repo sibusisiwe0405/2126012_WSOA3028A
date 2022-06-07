@@ -1,0 +1,32 @@
+.Hlink {
+  text-decoration: none;
+  color: black;
+}
+.Hlink:hover {
+  background-color: rgba(248, 248, 223, 0.055);
+  padding: 10px 30px;
+  border-radius: 20%;
+  color: black;
+}
+
+.reflection {
+  background-color: #f1d0b6;
+  margin: 20px;
+  padding: 30px;
+  font-size: 25px;
+}
+.headings {
+  text-align: center;
+  font-size: 30px;
+  background-color: #8c1c13;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #ffffff;
+}
+.stylePic {
+  display: flex;
+  height: 400px;
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+}

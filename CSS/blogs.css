@@ -1,0 +1,92 @@
+.Hlink {
+  text-decoration: none;
+  color: black;
+}
+.Hlink:hover {
+  background-color: rgba(248, 248, 223, 0.055);
+  padding: 10px 30px;
+  border-radius: 20%;
+  color: black;
+}
+.prev {
+  background: #8c1c13;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.next {
+  float: right;
+  background: #8c1c13;
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.blogs {
+  background-color: #f1d0b6;
+  margin-left: 50px;
+  margin: 50px;
+  font-family: Fonts;
+  src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-style: double;
+  border-width: 10px;
+}
+.polaroid {
+  display: inline-block;
+  margin-left: 40px;
+  width: 30%;
+  height: 30%;
+  margin-left: 30px;
+  background-color: rgb(245, 241, 240);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.container {
+  font-family: Fonts;
+  src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.blog1 {
+  background-color: #f1d0b6;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  text-indent: 40px;
+  letter-spacing: 2px;
+}
+.blog2 {
+  background-color: #f1d0b6;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  text-indent: 50px;
+  letter-spacing: 2px;
+}
+em {
+  font-size: 100px;
+  text-indent: auto;
+}
+.Bpics {
+  height: 100%;
+  width: 100%;
+  border-style: double;
+}
