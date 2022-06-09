@@ -4,8 +4,8 @@ body {
   font-family: "roboto", sans-serif;
 }
 .menu {
-  background: #222831;
-  height: 4rem;
+      background: #988372b8; 
+  height: 5rem;
   position: fixed;
   width: 100%;
   top: 0;
@@ -18,7 +18,7 @@ body {
 }
 .menu > ol {
   max-width: 1000px;
-  padding: 0 2rem;
+  padding: 0 3rem;
   display: flex;
 }
 .menu > ol > .menu-item {
@@ -58,7 +58,7 @@ body {
 }
 .sub-menu .menu-item {
   padding: 0.75rem 0;
-  background: #222831;
+  background: #988372b8; 
   opacity: 0;
   transform-origin: bottom;
   animation: enter 0.2s ease forwards;
@@ -83,6 +83,11 @@ body {
   .sub-menu .menu-item {
     background: #eeeeee;
   }
+}
+  @media screen and (max-width: 1024px) {
+    .sub-menu .menu-item {
+      background: #eeeeee;
+    }
 }
 @media screen and (max-width: 600px) {
   .menu {
@@ -167,6 +172,7 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
 @media screen and (max-width: 600px) {
   .sub-menu {
     width: 100vw;
@@ -174,6 +180,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
   }
+  
 }
 
 html,

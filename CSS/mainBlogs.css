@@ -72,6 +72,19 @@
       transform: none; 
       margin: 1rem auto;
     }
+}
+    @media screen and (max-width: 1024px) {
+        main {
+          display: flex; 
+          flex-direction: column; 
+          margin: 3rem auto;
+        }
+        .left, 
+        .right, 
+        .feature-card {
+          transform: none; 
+          margin: 1rem auto;
+        }
   }
   
   /* ====== STYLE THE CARDS ====== */
@@ -171,7 +184,7 @@
     margin-left: 50px;
     margin: 50px;
     font-family: Fonts;
-    src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
+    src: url(/Fonts/Satisfy/Satisfy-Regular.ttf);
     text-align: center;
     font-size: 80px;
     font-weight: bold;
@@ -179,3 +192,13 @@
     border-style: double;
     border-width: 10px;
 }
+.Hlink {
+    text-decoration: none;
+    color: black;
+  }
+  .Hlink:hover {
+    background-color: rgba(248, 248, 223, 0);
+    padding: 10px 30px;
+    border-radius: 20%;
+    color: black;
+  }

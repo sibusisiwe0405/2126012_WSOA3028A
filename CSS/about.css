@@ -33,6 +33,20 @@
   font-family: Fonts;
   src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
 }
+
+.blogs {
+  background-color: #f1d0b6;
+  margin-left: 50px;
+  margin: 50px;
+  font-family: Fonts;
+  src: url(./Fonts/Satisfy/Satisfy-Regular.ttf);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-style: double;
+  border-width: 10px;
+}
 .Hlink {
   text-decoration: none;
   color: black;
@@ -50,7 +64,7 @@
   left: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .burger-button {
     display: block;
   }
@@ -73,4 +87,26 @@
   #check:checked ~ ul {
     left: 0;
   }
+  
+.blogs {
+  background-color: #f1d0b6;
+  margin-left: 50px;
+  margin: 50px;
+  font-family: Fonts;
+  src: url(./Fonts/Satisfy/Satisfy-Regular.ttf);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-style: double;
+  border-width: 10px;
 }
+  .myimage {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  
+}}
