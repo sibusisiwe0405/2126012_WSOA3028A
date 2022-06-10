@@ -31,7 +31,7 @@
   font-size: 40px;
   font-weight: bold;
   font-family: Fonts;
-  src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
+  src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
 }
 
 .blogs {
@@ -39,7 +39,7 @@
   margin-left: 50px;
   margin: 50px;
   font-family: Fonts;
-  src: url(./Fonts/Satisfy/Satisfy-Regular.ttf);
+  src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
   text-align: center;
   font-size: 50px;
   font-weight: bold;
@@ -93,7 +93,7 @@
   margin-left: 50px;
   margin: 50px;
   font-family: Fonts;
-  src: url(./Fonts/Satisfy/Satisfy-Regular.ttf);
+  src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
   text-align: center;
   font-size: 30px;
   font-weight: bold;

@@ -187,3 +187,40 @@ em {
   width: 100%;
 }
 }
+@media screen and (max-width: 1024px){
+  .blog1 {
+    background-color: #f1d0b6;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    text-indent: 40px;
+    letter-spacing: 2px;
+  }
+  .blog2 {
+    background-color: #f1d0b6;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    text-indent: 50px;
+    letter-spacing: 2px;
+  }
+  .blogs {
+    background-color: #f1d0b6;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    font-family: Fonts;
+    src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border-style: double;
+    border-width: 10px;
+}
+}

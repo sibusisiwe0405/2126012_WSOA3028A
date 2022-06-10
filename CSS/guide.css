@@ -44,6 +44,11 @@
   border-style: double;
   border-width: 10px;
 }
+.newspaper{
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+}
 @media screen and (max-width : 600px ) {
   .blogs {
     background-color: #f1d0b6;
@@ -85,5 +90,15 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+.newspaper{
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+@media screen and (max-width : 1024px ){
+  .newspaper{
+    display: flex;
+    flex-wrap: wrap;
 }
 }
