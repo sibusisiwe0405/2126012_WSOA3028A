@@ -80,6 +80,15 @@
   text-indent: 50px;
   letter-spacing: 2px;
 }
+.blog4{
+  background-color: #f1d0b6;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
 em {
   font-size: 100px;
   text-indent: auto;
@@ -88,4 +97,93 @@ em {
   height: 100%;
   width: 100%;
   border-style: double;
+}
+.Dera{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.newspaper{
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+
+}
+@media screen and (max-width:600px) {
+  .blog1 {
+    background-color: #f1d0b6;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    text-indent: 40px;
+    letter-spacing: 2px;
+  }
+  .blog2 {
+    background-color: #f1d0b6;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    text-indent: 50px;
+    letter-spacing: 2px;
+  }
+  .blogs {
+    background-color: #f1d0b6;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    font-family: Fonts;
+    src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: double;
+    border-width: 10px;
+}
+.prev {
+  float: left;
+  background: #8c1c13;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px;
+}
+.next {
+  float: right;
+  background: #8c1c13;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px;
+
+
+}
+.Dera{
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.blog4{
+  background-color: #f1d0b6;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+em {
+  font-size: 50px;
+  text-indent: auto;
+}
+.video{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
 }

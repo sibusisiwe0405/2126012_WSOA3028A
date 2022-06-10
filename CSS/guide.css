@@ -82,4 +82,8 @@
   margin-left: 20%;
   padding: 10px;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 }
