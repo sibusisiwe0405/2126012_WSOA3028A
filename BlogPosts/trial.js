@@ -3,7 +3,7 @@
 
 
 const navItems = [
-    { href: '../trial.html', text: 'Home'},
+    { href: '../index.html', text: 'Home'},
     { href: '../about.html', text: 'About'  },
     { href: '../styleGuide.html', text: 'Style Guide' },
     { href: '../portfolio.html', text: 'Portfolo'},
@@ -77,7 +77,7 @@ class myFooter extends HTMLElement {
        <div class="footer-content"> 
         <h4>Company</h4>
         <ul>
-            <li><a href="../trial.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li><a href="../about.html">About</a></li>
             <li><a href="Blogs.html">Blogs</a></li>
             <li><a href="../portfolio.html">Portfolio</a></li>
