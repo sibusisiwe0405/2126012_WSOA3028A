@@ -95,10 +95,55 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 }
 @media screen and (max-width : 1024px ){
   .newspaper{
     display: flex;
     flex-wrap: wrap;
 }
+}
+@media screen and (max-width: 896px) {
+  footer {
+    height: 50vh;
+}
+}
+@media screen and (max-width: 844px) {
+  footer {
+    height: 80vh;
+}
+}
+@media screen and (max-width: 1180px) {
+  footer {
+    height: 30vh;
+}
+}
+@media screen and (max-width: 720px) {
+  footer {
+    height: 60vh;
+}
+}
+@media screen and (max-width: 653px) {
+  footer {
+    height: 100vh;
+
+}
+.blogs {
+  background-color: #f1d0b6;
+  margin-left: 50px;
+  margin: 50px;
+  font-family: Fonts;
+  src: url(./Fonts/Satisfy/Satisfy-Regular.ttf);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-style: double;
+  border-width: 10px;
+}
+}
+@media screen and (max-width: 1024px) {
+  footer{
+    height: 250px;
+  }
 }

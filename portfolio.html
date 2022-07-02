@@ -124,6 +124,15 @@ To view the pictures click on one and view the slide.
     </div>
   </div>
 
+  <h2>Play around with random pictures for Inspo!!</h2>
+  <button>View Photos</button>
+  <div class="imageContainer">
+  <a id="imageLink" href="#">
+      <img alt="" id="unsplashImage"/>
+  </a>
+  </div>
+
+
   
         <!--
         <div class="row">
@@ -164,6 +173,22 @@ To view the pictures click on one and view the slide.
             <p>Creating package designs for your products.
                 New packges or re-designs</p>
 </div>
+<script>
+let clientID = "0Z0fOr_p53gcCKEanQtOUq0jFCsKK49zCRtzJ4RIbU0";
+let endpoint = 'https://api.unsplash.com/photos/?client_id=${clientID}';
+
+let imageElement = document.querySelector("#unsplashImage");
+let imageLink = document.querySelector("#imageLink");
+
+fetch(endpoint)
+.then(function (response){
+ return response.json();
+})
+.then(function (jsonData){
+imageElement.src = jsonData.urls.regular;
+})
+
+</script>
     </main>
     <my-footer></my-footer>
 </body>

@@ -287,6 +287,34 @@ a:hover {
       font-family: Fonts;
       src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
     }
+    @media screen and (max-width: 896px) {
+      h1 {
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: double;
+        border-width: 10px;
+        font-size: 20px;
+        font-family: "Tapestry", Regular;
+      }
+      .home {
+        display: inline-block;
+        padding: 30px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+        width: 60%;
+        background-color: #f1d0b6;
+        text-align: left;
+        font-size: 20px;
+        border-style: double;
+        border-width: 10px;
+        border-radius: 20px;
+        font-family: Fonts;
+        src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
+    }
     @media screen and (max-width: 1024px) {
       .home {
         display: flex;
@@ -333,6 +361,11 @@ a:hover {
     footer {
       height: 100vh;
     }
+    @media screen and (max-width: 896px) {
+      footer {
+        height: 100vh;
+    }
+  }
     @media screen and (max-width: 700px) {
       footer {
         padding-bottom: 8rem;
@@ -342,5 +375,6 @@ a:hover {
  
 }
   }
+}
 
   

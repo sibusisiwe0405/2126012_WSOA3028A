@@ -135,3 +135,138 @@
   padding: 6px 10px;
   margin: 10px 10px;
 }
+@media screen and (max-width:667px) {
+  .mySlides {
+    display: none;
+    margin-left: 6rem;
+    margin-right: 10rem;
+    width: 100%;
+  }
+  .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: black;
+  background-color: #f1d0b6;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+footer{
+  height: 50vh;
+}
+}
+@media screen and (max-width: 844px) {
+  footer{
+    height: 100vh;
+    padding: 10px;
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .mySlides {
+    display: none;
+    margin-left: 13rem;
+    margin-right: 10rem;
+    width: 100%;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: black;
+  background-color: #f1d0b6;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+footer{
+  height: 50vh;
+}
+}
+@media screen and (max-width: 1024px) {
+  footer{
+    height: 70vh;
+}
+}
+@media screen and (max-width: 1368px) {
+  footer{
+    height: 30vh;
+}
+}
+@media screen and (max-width: 720px) {
+  .mySlides {
+    display: none;
+    margin-left: 9rem;
+    margin-right: 10rem;
+    width: 100%;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: black;
+  background-color: #f1d0b6;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+footer{
+  height: 80vh;
+}
+}
+@media screen and (max-width: 653px) {
+  .blogs {
+    background-color: #f1d0b6;
+    margin-left: 50px;
+    margin: 50px;
+    font-family: Fonts;
+    src: url(/2126012_WSOA3028A_Website/Fonts/Satisfy/Satisfy-Regular.ttf);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-style: double;
+    border-width: 10px;
+  }
+  footer{
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 914px) {
+  .mySlides {
+    display: none;
+    margin-left: 7rem;
+    margin-right: 10rem;
+    width: 100%;
+}
+}
+@media screen and (max-width: 1024px) {
+  footer{
+    height: 50vh;
+  }
+}

@@ -224,3 +224,8 @@ em {
     border-width: 10px;
 }
 }
+@media screen and (max-width: 896px) {
+  footer{
+    height: 100vh;
+  }
+}

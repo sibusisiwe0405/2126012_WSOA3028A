@@ -202,3 +202,41 @@
     border-radius: 20%;
     color: black;
   }
+  @media screen and (max-width: 896px) {
+    footer{
+      height:100vh;
+    }
+  }
+  @media screen and (max-width: 1180px) {
+    footer{
+      height: 30vh;
+    }
+  }
+  @media screen  and (max-width: 720px) {
+    footer{
+      height: 70vh;
+    }
+  }
+  @media screen and (max-width: 658px) {
+    footer{
+      height: 100vh;
+    }
+    .blogs {
+      background-color: #f1d0b6;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 100px;
+      font-family: Fonts;
+      src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      border-style: double;
+      border-width: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer{
+    height: 50vh;
+  }
+}
