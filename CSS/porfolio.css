@@ -169,7 +169,7 @@ h2 {
 .search-box i:hover{
   color: #8c1c13;
 }
-.grid{
+#grid{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
