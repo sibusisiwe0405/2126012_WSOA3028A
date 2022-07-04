@@ -57,6 +57,11 @@
   border-radius: 20%;
   color: black;
 }
+.linkP{
+  color: #8c1c13;
+  font-weight: bold;
+
+}
 #check {
   display: none;
 }
