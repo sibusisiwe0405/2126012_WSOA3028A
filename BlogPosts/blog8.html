@@ -13,6 +13,35 @@
     <script src="https://kit.fontawesome.com/55a8f5cf6b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <p class="blogs"><a href="../BlogPosts/blog7.html" class="prev">Prev.</a>Javascript Dependency<a href="/BlogPosts/blog9.html" class="next">Next</a></p>
+    </header>
+    <main>
+        <div class="blog2">
+            <article>
+            <em>F</em>or my Portfolio website I decided to make use of the Unsplash javascript API which pulls images online according to the words the user searches. Unsplash is a free photo discovery platform with high-quality images. 
+            It allows you to search for any picture and download from the smallest/lowest resolution to the highest.
+            <iframe class="video" width="650" height="360" src="https://www.youtube.com/embed/Yzx7ihtCGBs" title="What is an API and how does it work? (In plain English)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                The API uses https://api.unsplash.com as a source for the images. A unique access key is then required to access images searched according to the keyword. The reason why I went for this kind of API was because I wanted to argument my portfolio pages creativity by adding visuals as the sole purpose of the site is creativity. Imagery is an important part of establishing a brand identity and so this search api is a fun way that users can interact with the site and look up different photos as inspiration for whatever design they might want made for them. Some keywords that users could try look for is typing different colours to see if they make good colour combinations. This way they could get a possible colour palate that they would want for their designs. 
+                This would give you images with the color combination and how they look on different objects etc. 
+            </p> 
+            <img src="../Images/APIimage.png" class="Bpics" alt="Internet">
+            <p>
+                This API only returns 50 request per hour so I coded the API to return 10 results at a time so that it does not populate the page too much as it can become overwhelming or slow the browser down. There were also other alternatives that I could have used such as fetching random photos and listing new photos that are updated on Unsplash. I found that the Search option was a better one as the user gets results that they are looking for rather than generating random results which they may not be interested in.
+
+            </p>
+            <p>
+                When I was coding for the API I did encounter a few errors where my eventListeners were not working and some properties were returing a value of null. I managed to fix this by placing the Javascript tag at the bottom of the body html tag. I read through the documentation for the API and this helped me out a lot in terms of which parameters to use. 
+
+            </p>
+            <p class="Dera">Conclusion</p>
+            I went through quite a few APIs and I seemed to have issues with them but eventually I managed to have this Unsplash one working. I am happy with this decision because I feel it fits/ goes well with my site and type of work I do. The more I work on more site the better I get with understanding the code and implementations of JavaScript dependencies. 
+            <p class="Dera">References</p>
+            Source: https://unsplash.com/documentation
+        </article>
+        </main>
+            </div>
+            <my-footer></my-footer>
 </body>
 </html>

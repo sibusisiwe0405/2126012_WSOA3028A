@@ -133,7 +133,9 @@
   background-color: #f1d0b6;
   font-size: 20px;
   padding: 6px 10px;
-  margin: 10px 10px;
+  margin: 40px 10px;
+  text-align: center;
+  font-weight: bold;
 }
 h2 {
   font-size: 50px;
